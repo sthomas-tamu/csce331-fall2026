@@ -9,9 +9,9 @@ Update the database name in jdbcSQL.java and jdbcGUI.java, update the sql query,
 (for Mac, replace the ; with a :)
 > javac jdbcSQL.java
 
-> java -cp ".;sql-42.2.8.jar" jdbcSQL
+> java -cp ".;postgresql-42.2.8.jar" jdbcSQL
 
 > javac jdbcGUI.java
 
-> java -cp ".;sql-42.2.8.jar" jdbcGUI
+> java -cp ".;postgresql-42.2.8.jar" jdbcGUI
 

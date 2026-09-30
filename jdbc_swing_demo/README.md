@@ -8,8 +8,10 @@ Remind students not to commit dbSetup.java to repository!
 Update the database name in jdbcSQL.java and jdbcGUI.java, update the sql query, build, and run
 (for Mac, replace the ; with a :)
 > javac jdbcSQL.java
+
 > java -cp ".;sql-42.2.8.jar" jdbcSQL
 
 > javac jdbcGUI.java
+
 > java -cp ".;sql-42.2.8.jar" jdbcGUI
 

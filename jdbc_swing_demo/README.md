@@ -6,7 +6,7 @@ Remind students not to commit dbSetup.java to repository!
 > javac dbSetup.java
 
 Update the database name in jdbcSQL.java and jdbcGUI.java, update the sql query, build, and run
-(for Mac, replace the ; with a :)
+(in the commands below, Windows uses :, for Mac/Linux/WSL, use ;)
 > javac jdbcSQL.java
 
 > java -cp ".;postgresql-42.2.8.jar" jdbcSQL

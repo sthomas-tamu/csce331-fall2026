@@ -15,7 +15,7 @@ public class Image implements AutoCloseable {
     /**
      * Construct an image object.
      *
-     * @param src - filename
+     * @param src filename
      */
     public Image(String src) {
         this.bytes = new byte[100];
@@ -46,7 +46,7 @@ public class Image implements AutoCloseable {
     /**
      * Validates a URL.
      *
-     * @param url - the URL to validate
+     * @param url the URL to validate
      * @throws MalformedURLException if URL is invalid
      */
     private static void validateURL(URL url) throws MalformedURLException {
@@ -58,7 +58,7 @@ public class Image implements AutoCloseable {
     /**
      * The underlyling bytes.
      *
-     * @return - the image as a byte array
+     * @return the image as a byte array
      */
     public byte[] getBytes() {
         return this.bytes;
